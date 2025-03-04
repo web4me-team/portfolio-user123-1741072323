@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cartoon Style Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@400;700&family=Fredoka+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="https://api.dicebear.com/7.x/bottts/svg?seed=Cartoon" alt="Cartoon Avatar" width="100">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="Joe P. Samples">Joe P. Samples</h1>
+          <p class="title">Ph.D. Candidate in Neuroscience</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+        </button>
+      </div>
+      <div class="sidebar-info_more" data-sidebar-more>
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:joe.samples@utsa.edu" class="contact-link">joe.samples@utsa.edu</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+12105552225" class="contact-link">(210) 555-2225</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>9448 Buckyball Way, San Antonio, TX 78249</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <i class="fab fa-github"></i> 
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <i class="fab fa-researchgate"></i> 
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="#" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+
+    <div class="main-content">
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link active" data-nav-link>About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Education</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Research</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About Me</h2>
+        </header>
+        <section class="about-text">
+          <h2>👋 Hi, I'm Joe P. Samples</h2>
+          <p>Experienced researcher with a Ph.D. in Neuroscience and extensive background in cell and structural biology. Proven track record in research assistance and teaching, with a focus on neurobiology and cell adhesion. Skilled in various laboratory techniques and committed to advancing scientific knowledge.</p>
+          <p>As a <strong>neuroscientist & cellular biology researcher</strong>, I have been deciphering the “language” of neurons—how synaptic plasticity shapes learning and cognition. My journey has taken me through <strong>UCLA, UT Health, and Tulane University</strong>, where I have leveraged molecular biology, neuroimaging, and electrophysiological recording techniques to explore the intricate workings of neural networks.</p>
+          <h2>🔬 My Research Focus</h2>
+          <ul>
+            <li><strong>Neurobiology:</strong> Learning and memory, long term potentiation</li>
+            <li><strong>Respiratory Biology:</strong></li>
+            <li><strong>Physiology of Vision:</strong></li>
+            <li><strong>Cell and Molecular Biology:</strong> Cell adhesion and cancer biology</li>
+          </ul>
+          <p>Beyond fundamental research, I am passionate about translating these discoveries into treatments for <strong>neurodegenerative diseases like Alzheimer’s</strong>, hoping that one day, science can help people reclaim lost memories.</p>
+          <p>When I’m not in the lab, you might find me at scientific conferences or inspiring young minds through STEM outreach talks about the wonders of the brain.</p>
+          <p class="contact">📧 Want to discuss neuroscience, research collaborations, or bold scientific ideas? Let’s connect! 🚀</p>
+        </section>
+      </article>
+
+      <article class="education" data-page="education">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="book-outline"></ion-icon> Education
+          </h2>
+        </header>
+        <section class="timeline">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">University of Texas Health Science Center at San Antonio</h4>
+              <span>1996</span>
+              <p class="timeline-text">Postdoc. in Cell & Structural Biology</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Tulane University, New Orleans, LA</h4>
+              <span>1995</span>
+              <p class="timeline-text">Ph.D. in Neuroscience Interdisciplinary Training Program</p>
+              <p class="timeline-text">Thesis: Induced Regeneration and Gene Expression in the Chick Limb Bud – Examined developmental phenomena and stage-related barriers to regeneration in higher vertebrates, focusing on Msx-1 and HoxD homeobox expression.</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Tulane University, New Orleans, LA</h4>
+              <span>1992</span>
+              <p class="timeline-text">M.S. in Biomedical Engineering</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">University of Texas at San Antonio</h4>
+              <span>1986</span>
+              <p class="timeline-text">B.S. in Psychobiology</p>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="research" data-page="research">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="flask-outline"></ion-icon> Research
+          </h2>
+        </header>
+        <section class="timeline">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Research Assistant - UT San Antonio</h4>
+              <span>2018 — Present</span>
+              <p class="timeline-text">Fatemapping of developing serotonergic neurons in Drosophila melanogaster</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Undergraduate Research Assistant - University of Texas at San Antonio</h4>
+              <span>2001-2003</span>
+              <p class="timeline-text">MBRS-RISE Research Training Program, Center for Research and Training in the Sciences</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Teaching Assistant, Introductory Biology Laboratory - University of Texas at San Antonio</h4>
+              <span>1999-2001</span>
+              <p class="timeline-text">Department of Biology</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Undergraduate Research Assistant - University of Texas at San Antonio</h4>
+              <span>1997-1999</span>
+              <p class="timeline-text">MARC U*STAR Honors Research Training Program, Center for Research and Training in the Sciences</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Research Assistant - University of California, Los Angeles</h4>
+              <span>2000</span>
+              <p class="timeline-text">UCLA Summer AWU-DOE Summer Research Program, Department of Neurobiology</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Research Assistant - University of Texas Health Science Center at San Antonio</h4>
+              <span>1994-1995</span>
+              <p class="timeline-text">Department of Cell and Structural Biology</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Quality Assurance Analyst - DGMMM Laboratories, Houston, TX</h4>
+              <span>1992-1993</span>
+              <p class="timeline-text">Quality Assurance Department</p>
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <article class="publications" data-page="publications">
+        <header>
+          <h2 class="h2 article-title">
+            <ion-icon name="document-text-outline"></ion-icon> Publications
+          </h2>
+        </header>
+        <section class="timeline">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Journal of Pathology (1998)</h4>
+              <p class="timeline-text">"Extraction of RNA from single frozen sections."</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Developmental Biology (1994)</h4>
+              <p class="timeline-text">"FGF-2 induces regeneration of the Chick limb bud."</p>
+            </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Developmental Biology (1994)</h4>
+              <p class="timeline-text">"Conversion of anterior limb bud cells to ZPA signaling cells in vitro and in vivo."</p>
+            </li>
+          </ol>
+        </section>
+      </article>
+    </div>
+  </main>
+
+  <script>
+    'use strict';
+
+    // Toggle sidebar contacts
+    const sidebar = document.querySelector("[data-sidebar]");
+    const sidebarBtn = document.querySelector("[data-sidebar-btn]");
+    const sidebarMore = document.querySelector("[data-sidebar-more]");
+
+    sidebarBtn.addEventListener("click", function () {
+      sidebarMore.classList.toggle("active");
+      sidebarBtn.querySelector("span").textContent = sidebarMore.classList.contains("active") ? "Hide Contacts" : "Show Contacts";
+    });
+
+    // Handle navigation links
+    const navigationLinks = document.querySelectorAll("[data-nav-link]");
+    const pages = document.querySelectorAll("[data-page]");
+
+    navigationLinks.forEach((link) => {
+      link.addEventListener("click", function () {
+        navigationLinks.forEach(navLink => navLink.classList.remove("active"));
+        this.classList.add("active");
+
+        const pageName = this.textContent.toLowerCase().trim();
+        pages.forEach(page => page.classList.remove("active"));
+        const targetPage = document.querySelector(`[data-page="${pageName}"]`);
+        if (targetPage) {
+          targetPage.classList.add("active");
+          window.scrollTo(0, 0);
+        }
+      });
+    });
+  </script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
