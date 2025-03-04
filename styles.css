@@ -1,0 +1,195 @@
+/* General Styles */
+body {
+  font-family: 'Comic Neue', cursive;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Fredoka One', cursive;
+  color: #ff6f61;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #fff3e0;
+  padding: 20px;
+  border-right: 5px solid #ff6f61;
+  text-align: center; /* Center align name and title */
+}
+
+.avatar-box img {
+  border: 5px solid #ff6f61;
+  border-radius: 50%;
+}
+
+.info-content .name {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+.info-content .title {
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.sidebar-info_more {
+  display: none;
+}
+
+.sidebar-info_more.active {
+  display: block;
+}
+
+/* Main Content */
+.main-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-list {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+}
+
+.navbar-link {
+  background-color: #ff6f61;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-family: 'Fredoka One', cursive;
+  cursor: pointer;
+}
+
+.navbar-link.active {
+  background-color: #ffdd57;
+  color: #333;
+}
+
+/* Articles */
+article {
+  display: none;
+}
+
+article.active {
+  display: block;
+}
+
+/* Timeline */
+.timeline-list {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline-item {
+  margin: 10px 0;
+  padding-left: 20px;
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "•";
+  color: #ff6f61;
+  font-size: 1.5rem;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+/* Icons in Titles */
+.article-title ion-icon {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* Contact Information */
+.contacts-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.icon-box {
+  background-color: #ff6f61;
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+}
+
+.icon-box ion-icon {
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.contact-info {
+  flex: 1;
+}
+
+.contact-title {
+  font-size: 0.9rem;
+  color: #666;
+  margin: 0;
+}
+
+.contact-link, address {
+  font-size: 1rem;
+  color: #333;
+  text-decoration: none;
+  margin: 0;
+}
+
+.contact-link:hover {
+  color: #ff6f61;
+}
+.info_more-btn {
+  position: absolute;
+  top: 0px; 
+  left: 0px; 
+  border-radius: 15px 0;
+  color: var(--orange-yellow-crayola);
+  background: var(--border-gradient-onyx);
+  padding: 10px;
+  box-shadow: var(--shadow-2);
+  transition: var(--transition-1);
+  z-index: 1;
+}
+/* Separator */
+.separator {
+  border-bottom: 2px solid #ff6f61;
+  margin: 20px 0;
+}
+
+/* Social Links */
+.social-list {
+  display: flex;
+  gap: 15px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.social-link {
+  color: #ff6f61;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.social-link:hover {
+  color: #ffdd57;
+}
